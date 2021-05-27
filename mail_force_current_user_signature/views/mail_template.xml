@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="mail_notification_paynow"
+        inherit_id="mail.mail_notification_paynow"
+        priority="200"
+    >
+        <xpath expr="//div[@t-if='record.user_id.sudo().signature']" position="replace">
+            <t t-if="record.env.user.sudo().signature">
+                <div style="font-size: 13px;">
+                    <div t-raw="record.env.user.sudo().signature"/>
+                </div>
+            </t>
+            <t t-else="">$0</t>
+        </xpath>
+    </template>
+</odoo>
