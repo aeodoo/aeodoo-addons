@@ -2,6 +2,7 @@ account-reconcile
 account-analytic
 account-financial-reporting
 account-financial-tools
+#merges account-financial-tools 1193
 account-invoicing
 account-payment
 #merges account-payment 396
