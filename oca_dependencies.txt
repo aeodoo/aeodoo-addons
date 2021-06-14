@@ -1,3 +1,4 @@
+design-themes https://github.com/odoo/design-themes.git
 account-reconcile
 account-analytic
 account-financial-reporting
