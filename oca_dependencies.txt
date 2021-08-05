@@ -18,7 +18,6 @@ dms
 event
 #merges event 195
 e-commerce
-#merges e-commerce 443
 knowledge
 l10n-spain
 #merges l10n-spain 1577
